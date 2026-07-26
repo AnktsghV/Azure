@@ -1,7 +1,0 @@
-title = "Terraform Password Scanner"
-
-[[rules]]
-id = "terraform-hardcoded-password"
-description = "Hardcoded password found in Terraform files"
-regex = '''(?i)(admin_password|password|secret)\s*=\s*["']([^"']+)["']'''
-secretGroup = 2
