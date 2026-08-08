@@ -1,0 +1,15 @@
+variable "resource_groups" { type = map(any) }
+variable "vnets" { type = map(any) }
+variable "subnets" { type = map(any) }
+variable "nsgs" { type = map(any) }
+variable "nics" { type = map(any) }
+variable "vms" { type = map(any) }
+variable "load_balancers" { type = map(any) }
+variable "backend_pools" { type = map(any) }
+variable "health_probes" { type = map(any) }
+variable "lb_rules" { type = map(any) }
+variable "bastions" {type = map(any) }
+variable "key_vaults" { type = map(any) }
+variable "key_vault_secrets" { type = map(any) }
+variable "storage_accounts" { type = map(any) }
+variable "file_shares" { type = map(any) }
